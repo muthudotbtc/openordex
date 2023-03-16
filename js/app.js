@@ -4,7 +4,7 @@ const baseMempoolUrl = isProduction ? "http://umbrel.local:3006" : "https://memp
 const networkName = isProduction ? "mainnet" : "signet"
 const baseMempoolApiUrl = `${baseMempoolUrl}/api`
 const bitcoinPriceApiUrl = "https://blockchain.info/ticker?cors=true"
-const nostrRelayUrl = ['wss://nostr.openordex.org','ws://umbrel.local:4848']
+const nostrRelayUrl = 'wss://nostr.openordex.org'
 const collectionsRepo = "ordinals-wallet/ordinals-collections"
 const exchangeName = 'openordex'
 const feeLevel = "hourFee" // "fastestFee" || "halfHourFee" || "hourFee" || "economyFee" || "minimumFee"
